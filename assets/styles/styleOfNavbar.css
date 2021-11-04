@@ -1,0 +1,10 @@
+
+.navbar-brand img{
+    height: 70px;
+}
+
+.navbar-nav{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+    /* font-size: larger; */
+}
