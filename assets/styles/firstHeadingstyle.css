@@ -14,8 +14,8 @@
         {
             font-family: 'Playfair Display', serif;
             background-color: rgba(22, 22, 22, 0.651);
-
         }
+        
             h1 b
             {
                 font-weight: 700;
@@ -82,24 +82,28 @@
                     }
                 }
     
-
+/* Aslan's Image */
 .aslanImg
 {
-    width: 200px;
+    width: 200px;    
 }
 
+/* Title of the first Heading */
+/* Paragraph */
 .firstHeadingTitle .paragraph
 {
     font-family: 'Poppins', sans-serif;
     background-color: rgba(255, 255, 255, 0.562);
 }
 
+/* Right subtitle */
 .firstHeadingSubtitle
 {
     font-family: 'Space Mono', monospace;
     background-color: rgba(255, 255, 255, 0.596);
 }
 
+/* Rodri image container */
 .rodriContainer
 {
   position: relative;
@@ -109,15 +113,17 @@
   border-radius: 50%;
 }
 
-.rodriImg
-{
-    width: 100%;
-    height: auto;
-    z-index: 10;
-}
+    .rodriImg
+    {
+        width: 100%;
+        height: auto;
+        z-index: 10;
+    }
+
+
+/* Caption of both Aslan's and Rodri's image */
 
 figcaption 
 {
     font-family: 'Zen Kurenaido', sans-serif;
-
 }
