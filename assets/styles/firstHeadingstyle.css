@@ -2,6 +2,7 @@
 {   
     background-image: url("https://c.pxhere.com/photos/26/bb/work_table_workspace_desk_paper_typewriter-10354.jpg!d");
     
+    
 }
 .firstHeadingTitle
 {
@@ -14,7 +15,15 @@
     background-color: rgba(22, 22, 22, 0.651);
 
 }
-.firstHeadingTitle .parragraf{
+
+
+.aslanImg
+{
+ width: 200px;
+}
+
+.firstHeadingTitle .paragraph
+{
     font-family: 'Poppins', sans-serif;
     background-color: rgba(255, 255, 255, 0.562);
 }
@@ -23,4 +32,26 @@
 {
     font-family: 'Space Mono', monospace;
     background-color: rgba(255, 255, 255, 0.596);
+}
+
+.rodriContainer
+{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.rodriImg
+{
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+figcaption 
+{
+    font-family: 'Zen Kurenaido', sans-serif;
+
 }
