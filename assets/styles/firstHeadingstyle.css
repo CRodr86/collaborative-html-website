@@ -1,25 +1,91 @@
+/* Text display background */
 .text
 {   
     background-image: url("https://c.pxhere.com/photos/26/bb/work_table_workspace_desk_paper_typewriter-10354.jpg!d");
+}
+
+    /* Background of the Title */
+    .firstHeadingTitle
+    {
+        background-color: rgba(19, 28, 34, 0.212); 
+    }
+        /* The main Title */
+        .firstHeadingTitle h1
+        {
+            font-family: 'Playfair Display', serif;
+            background-color: rgba(22, 22, 22, 0.651);
+
+        }
+            h1 b
+            {
+                font-weight: 700;
+            }
+
+            /* Dots blinking animation */
+            .dot#dot1
+            {
+                animation: blink-animation 2s steps(2, start) infinite;
+                -webkit-animation: blink-animation 2s steps(2, start) infinite;
+              }
+                @keyframes blink-animation 
+                {
+                  to 
+                  {
+                    visibility: hidden;
+                  }
+                }
+                @-webkit-keyframes blink-animation 
+                {
+                  to 
+                  {
+                    visibility: hidden;
+                  }
+                }
+
+            .dot#dot2
+            {
+                animation: blink-animation 2s steps(3, start) infinite;
+                -webkit-animation: blink-animation 2s steps(3, start) infinite;
+                }
+                @keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
+                @-webkit-keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
+
+            .dot#dot3
+            {
+                animation: blink-animation 2s steps(4, start) infinite;
+                -webkit-animation: blink-animation 2s steps(4, start) infinite;
+                }
+                @keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
+                @-webkit-keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
     
-    
-}
-.firstHeadingTitle
-{
-    background-color: rgba(19, 28, 34, 0.212); 
-}
-
-.firstHeadingTitle h1
-{
-    font-family: 'Zen Kurenaido', sans-serif;
-    background-color: rgba(22, 22, 22, 0.651);
-
-}
-
 
 .aslanImg
 {
- width: 200px;
+    width: 200px;
 }
 
 .firstHeadingTitle .paragraph
