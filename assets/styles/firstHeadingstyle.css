@@ -1,0 +1,129 @@
+/* Text display background */
+.text
+{   
+    background-image: url("https://c.pxhere.com/photos/26/bb/work_table_workspace_desk_paper_typewriter-10354.jpg!d");
+}
+
+    /* Background of the Title */
+    .firstHeadingTitle
+    {
+        background-color: rgba(19, 28, 34, 0.212); 
+    }
+        /* The main Title */
+        .firstHeadingTitle h1
+        {
+            font-family: 'Playfair Display', serif;
+            background-color: rgba(22, 22, 22, 0.651);
+        }
+        
+            h1 b
+            {
+                font-weight: 700;
+            }
+
+            /* Dots blinking animation */
+            .dot#dot1
+            {
+                animation: blink-animation 2s steps(2, start) infinite;
+                -webkit-animation: blink-animation 2s steps(2, start) infinite;
+              }
+                @keyframes blink-animation 
+                {
+                  to 
+                  {
+                    visibility: hidden;
+                  }
+                }
+                @-webkit-keyframes blink-animation 
+                {
+                  to 
+                  {
+                    visibility: hidden;
+                  }
+                }
+
+            .dot#dot2
+            {
+                animation: blink-animation 2s steps(3, start) infinite;
+                -webkit-animation: blink-animation 2s steps(3, start) infinite;
+                }
+                @keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
+                @-webkit-keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
+
+            .dot#dot3
+            {
+                animation: blink-animation 2s steps(4, start) infinite;
+                -webkit-animation: blink-animation 2s steps(4, start) infinite;
+                }
+                @keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
+                @-webkit-keyframes blink-animation 
+                {
+                    to 
+                    {
+                    visibility: hidden;
+                    }
+                }
+    
+/* Aslan's Image */
+.aslanImg
+{
+    width: 200px;    
+}
+
+/* Title of the first Heading */
+/* Paragraph */
+.firstHeadingTitle .paragraph
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+/* Right subtitle */
+.firstHeadingSubtitle
+{
+    font-family: 'Space Mono', monospace;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+
+/* Rodri image container */
+.rodriContainer
+{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+    .rodriImg
+    {
+        width: 100%;
+        height: auto;
+        z-index: 10;
+    }
+
+
+/* Caption of both Aslan's and Rodri's image */
+
+figcaption 
+{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
