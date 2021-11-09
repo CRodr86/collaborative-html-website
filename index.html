@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es-ES">
 
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +12,10 @@
     <!-- CSS links of the main project -->
     <link rel="stylesheet" href="./assets/styles/styleOfTagline.css">
     <link rel="stylesheet" href="./assets/styles/styleOfNavbar.css">
-    <link rel="stylesheet" href="assets/styles/firstHeadingstyle.css"">
+    <link rel="stylesheet" href="./assets/styles/firstHeadingstyle.css">
+    <link rel="stylesheet" href="./assets/styles/portfolioStyle.css">
+    <link rel="stylesheet" href="./assets/styles/contactStyle.css">
+    <link rel="stylesheet" href="./assets/styles/servicesStyle.css">
     
     <!-- Google fonts links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +31,8 @@
       <!-- Poppins font -->
       <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
       <!-- Playfair font -->
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,700;1,900&display=swap" rel="stylesheet">     <title>BootTeam Webpage Project</title>
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,700;1,900&display=swap" rel="stylesheet">
+      <title>BootTeam Webpage Project</title>
 </head>
 <body class="bg-dark">
     <div class="container-fluid">
@@ -49,9 +52,9 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav text-light fs-4">
                             <a class="nav-link active text-light" aria-current="page" href="#scrollspyHeading1">Nosotros</a>
-                            <a class="nav-link active text-light" href="#">Servicios</a>
-                            <a class="nav-link active text-light" href="#">Portofolio</a>
-                            <a class="nav-link active text-light" href="#">Contacto</a>
+                            <a class="nav-link active text-light" href="#scrollspyServices">Servicios</a>
+                            <a class="nav-link active text-light" href="#scrollspyPortfolio">Portofolio</a>
+                            <a class="nav-link active text-light" href="#scrollspyContact">Contacto</a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +64,7 @@
         <!--TAGLINE-->
 
         <!-- <div class="container"> -->
-        <div class="tagline  rounded ms-5 me-5 pt-5 pb-3">
+        <div class="tagline rounded ms-5 me-5 pt-5 pb-3">
 
             <!-- title of the tagline -->
             <div class="title rounded m-2 mb-5 d-flex flex-row justify-content-center ">
@@ -104,7 +107,7 @@
 
                     <!-- Aslan's photo profile -->
                     <!-- column -->
-                    <div class="col-ms-2 col-lg-2">
+                    <div class="col-sm-2 col-lg-2">
                         <div class="aslanContainer ">              
                             <img class="aslanImg d-flex  rounded-circle" src="./assets/resources/FotoPerfilB&N.png" alt="Aslan Staub' portrait">
                             <figcaption class="figure-caption text-center fs-5">Aslan Staub</figcaption>
@@ -112,16 +115,16 @@
                     </div>
 
                     <!-- Title and text column -->
-                    <div class="col-ms-8 col-lg-8">
+                    <div class="col-sm-8 col-lg-8">
                         <div class="text text-dark row rounded">
                     
                             <!-- Title of the frist heading -->
-                            <div class="firstHeadingTitle col-ms-8 col-lg-8">
+                            <div class="firstHeadingTitle col-sm-8 col-lg-8">
                                 
                                 <!-- First Heading title -->
                                 <h1 class="rounded fw-bold mt-1 display-5 text-light" id="scrollspyHeading1">Sobre <b class="fst-italic"> nosotros</b>
               
-                                    <!-- Three blinking dots afte the First Heading title -->
+                                    <!-- Three blinking dots after the First Heading title -->
                                     <svg class="dot" id="dot1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
                                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
                                     </svg>
@@ -145,14 +148,14 @@
                             </div>
 
                             <!-- Heading subtitle column end -->
-                            <div class="firstHeadingSubtitle col-ms-4 col-lg-4 display-6 text-center align-middle  rounded pt-5 ">
+                            <div class="firstHeadingSubtitle col-ms-4 col-lg-4 display-6 text-center align-middle rounded pt-5 ">
                                 <p>  "Dos mentes, cuatro manos y veinte dedos para codificar su página web perfecta."</p>
                             </div>
                         </div>
                     </div>
 
                     <!-- Final column for Rodri's profile -->
-                    <div class="col-ms-2 col-lg-2">
+                    <div class="col-sm-2 col-lg-2">
                         <!-- Rodri's profile photo -->
                         <div class="d-inline-block me-5">
                             <div class="rodriContainer">
@@ -168,17 +171,62 @@
         </div>
 
         <!-- Services -->
+        <div class="container-fluid p-4 ">
 
-        <!-- Portfolio -->
-        <div class="container">
+            <!-- Services Header -->
             <div class="row d-flex justify-content-center">
-                <div class="col-10 mt-5">
+                <div class="col-sm-9 col-lg-9 p-3 text-center servicesHeader" id="scrollspyServices">
+                    <h3>Servicios</h3>
+                </div>
+            <div>
+            <div class="row d-flex justify-content-center servicesIcons">
+                <div class="col-sm-2 col-lg-2 bg-light bg-gradient bg-opacity-75  text-center rounded pt-4 pb-2 m-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
+                    </svg>
+                    <h4 id="webDesignText">Diseño Web</h4>
+                </div>
+                <div class="col-sm-2 col-lg-2 bg-light bg-gradient bg-opacity-75 text-center rounded pt-4 pb-2 m-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                    </svg>
+                    <h4 id="ecommerceText">e-Commerce</h4>
+                </div>
+                <div class="col-sm-2 col-lg-2 bg-light bg-gradient bg-opacity-75 text-center rounded pt-4 pb-2 m-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+                        <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+                        <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+                        <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+                    </svg>
+                    <h4>Pasarelas de pago</h4>
+                </div>
+                <div class="col-sm-2 col-lg-2 bg-light bg-gradient bg-opacity-75 text-center rounded pt-4 pb-2 m-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z"/>
+                        <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                    </svg>
+                    <h4>Sistema de reservas</h4>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-8 col-lg-8 text-center rounded pt-3 m-1 servicesParagraph">
+                        <div class="p-3">
+                            <p>Nosotros diseñamos páginas web pensadas para cubrir todas las necesidades de nuestros clientes. Somos especialistas en comercio eletrónico, soluciones para empresas de restauración e inmobiliarias. Implementamos pasarelas de pago, desarrollamos sistemas de gestión de ventas y pedidos online y también sistemas de gestión de alquiler para inmobiliarias y empresas de alquiler de corta duración.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio -->
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center">
+                <div class="col-sm-9 col-lg-9 mt-5 mb-0 p-3 text-center portfolioHeader" id="scrollspyPortfolio">
                     <h3>Portfolio</h3>
                     <p>Cada trabajo que realizamos está pensado y hecho a medida para cumplir las necesidades de cada cliente. Aquí están algunos de los proyectos desarrolados por nosotros: </p>
                 </div>
                 
                 <!-- Nav Pills -->
-                <ul class="nav nav-pills mb-5 mt-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+                <ul class="nav nav-pills mb-5 mt-2 d-flex justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">e-Commerce</button>
                     </li>
@@ -191,38 +239,38 @@
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                        <div class="container">
-                            <div class="row">
+                        <div class="container-fluid">
+                            <div class="row d-flex justify-content-center">
                                 
                                 <!-- Card 1 - e-Commerce -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2013-05/mauricelacroix-com-3049.png" class="card-img-top" alt="e-commerce Maurice Lacroix">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Maurice Lacroix</h5>
+                                            <p class="card-text">Sitio web institucional y tienda online creada para la prestigiosa marca de relojes Maurice Lacroix.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <!-- Card 2 - e-Commerce -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2019-01/venezianocoffee-com-au-51496.png" class="card-img-top" alt="e-commerce Veneziano Coffee Roasters">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Veneziano Coffee</h5>
+                                            <p class="card-text">Tienda online diseñada para la sofisticada tostatora de cafés gourmet Veneziano Coffee Roasters.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <!-- Card 3 - e-Commerce -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2015-07/bossgloves-com-25065.png" class="card-img-top" alt="e-commerce Boss Gloves">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Boss</h5>
+                                            <p class="card-text">Remodelación de la página web y creacion de tienda online para la fabricante de guantes Boss.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -230,38 +278,38 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <div class="container">
-                            <div class="row">
+                        <div class="container-fluid">
+                            <div class="row d-flex justify-content-center">
                                 
                                 <!-- Card 1 - Restaurantes -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2015-06/kfc-com-24047.png" class="card-img-top" alt="Sitio web KFC">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">KFC</h5>
+                                            <p class="card-text">Renovación de la web institucional e implementación de nuevo sistema de gestión de pedidos en línea.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <!-- Card 2 - Restaurantes -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2019-03/thegoodburger-com-52188.png" class="card-img-top" alt="Sitio web TGB - The Good Burger">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">TGB</h5>
+                                            <p class="card-text">Diseño de sitio web, creación e implementación de pasarela de pago para la hamburguesería TGB.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <!-- Card 3 - Restaurantes -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2015-12/crackerbarrel-com-28632.png" class="card-img-top" alt="Sitio web Cracker Barrel">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Cracker Barrel</h5>
+                                            <p class="card-text">Actualización del diseño e implementación de TPV y de sistema de gestión de pedidos en línea.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -269,38 +317,38 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        <div class="container">
-                            <div class="row">
+                        <div class="container-fluid">
+                            <div class="row d-flex justify-content-center">
                                 
                                 <!-- Card 1 - Real Estate -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2016-10/deskpass-com-36716.png" class="card-img-top" alt="Sitio web Deskpass">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Deskpass</h5>
+                                            <p class="card-text">Diseño de página web, creación e implementación de sistema de gestión de reservas a medida.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <!-- Card 2 - Real Estate -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2016-05/rentberry-com-32214.png" class="card-img-top" alt="Sitio web Rentberry">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rentberry</h5>
+                                            <p class="card-text">Renovación de la web, creación de sistema de gestión de reservas y implementación de nueva pasarela de pago.</p>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <!-- Card 3 - Real Estate -->
-                                <div class="col-4">
-                                    <div class="card" style="width: 25rem;">
+                                <div class="col-sm-3 col-lg-3">
+                                    <div class="card" style="width: 100%;">
                                         <img src="https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2018-04/residence-althea-fr-47994.png" class="card-img-top" alt="Sitio web Residence Althea">
-                                        <div class="card-body px-0">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Résidence Althea</h5>
+                                            <p class="card-text">Sitio web para promoción inmobiliaria de gran prestigio, con sistema de gestión de citas.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -312,15 +360,15 @@
         </div>
         
         <!-- Contact -->
-        <div class="container mt-5">
+        <div class="container-fluid mt-5">
             <div class="row d-flex justify-content-center">
-                <div class="col-10">
+                <div class="col-sm-9 col-lg-9 fs-5 mt-3 p-3 text-light text-center contactHeader" id="scrollspyContact">
                     <h3>Contacto</h3>
-                    <p>Para cualquier consulta, solamente tienes que rellenar este formulario y nos pondremos en contacto lo antes posible.</p>
+                    <p>Es muy fácil contactar con nosotros, sólo tienes que rellenar este formulario y nos pondremos en contacto lo antes posible.</p>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center mt-5">
-                <div class="col-6">
+            <div class="row d-flex justify-content-center mt-2">
+                <div class="col-sm-6 col-lg-6">
                     <form>
                         
                         <!-- Name -->
@@ -350,13 +398,13 @@
                                 id="form4Example4"
                                 checked
                             />
-                            <label class="form-check-label" for="form4Example4">
+                            <label class="form-check-label text-light" for="form4Example4">
                                 Enviarme una copia del mensaje.
                             </label>
                         </div>
                     
                         <!-- Submit Button -->
-                        <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+                        <button type="submit" class="btn btn-warning btn-block mb-4">Enviar</button>
                     </form>
                 </div>
             </div>
@@ -369,7 +417,7 @@
                     <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                         <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
                     </a>
-                    <span class="text-muted">&copy; 2021 Company, Inc</span>
+                    <span class="text-muted">&copy; 2021 BootTeam</span>
                 </div>
                 <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                    
