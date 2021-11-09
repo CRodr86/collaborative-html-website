@@ -1,0 +1,38 @@
+.portfolioHeader h3 {
+    font-family: 'Space Mono', monospace;
+    color: lightgray;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.portfolioHeader p {
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.card-title {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link {
+    background-color: #ffc107 !important;
+    color: black !important;
+}
+
+.nav-pills .nav-link,
+.show>.nav-pills .nav-link {
+    color: #ffcd35 !important;
+}

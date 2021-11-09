@@ -11,6 +11,7 @@
 
 .tagline .title
 {
+  border-radius: 30%;
   background-color: rgba(235, 235, 235, 0.432);
 }
 
