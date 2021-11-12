@@ -1,4 +1,4 @@
-![4Geeks Academy Logo](https://carnejovenmadrid.com/sites/default/files/ventajas/4geeks.jpg "4Geeks Academy Logo")
+<img src="./assets/resources/4geeks.jpg">
 
 # Collaborative HTML Website
 
