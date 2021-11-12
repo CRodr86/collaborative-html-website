@@ -1,0 +1,78 @@
+
+.tagline 
+{
+  background-image: url("https://c.wallhere.com/photos/0a/5a/Laravel_simple_code_programming_PHP_low_poly_minimalism_colorful-78616.png!d");
+  background-position-x: 100%;
+  background-position-y: 75%;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.tagline .title
+{
+  border-radius: 30%;
+  background-color: rgba(235, 235, 235, 0.432);
+}
+
+.tagline .title .smaller
+{
+  margin-top: 10px;
+  margin-left: 5em;
+
+}
+
+
+.tagline .title .slash
+{
+  margin-top: 10px;
+  transform: rotate(-15deg);
+    
+}
+.blink 
+{
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+  @keyframes blink-animation 
+  {
+    to 
+    {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation 
+  {
+    to 
+    {
+      visibility: hidden;
+    }
+  }
+
+.tagline .title .bigger
+{
+
+    position: relative;
+    margin-top: 10px;
+    z-index: +2;
+    left: -2em;
+}
+
+.subtitle
+{   
+    background-color: rgba(145, 170, 173, 0.404);
+    color: rgb(36, 36, 36)
+
+}
+
+.subtitle .text-center 
+{
+    font-family: 'Zen Kurenaido', sans-serif;
+
+}
+
+.subtitle .text-center .fst-italic
+{
+    
+    font-family: 'Space Mono', monospace;
+}

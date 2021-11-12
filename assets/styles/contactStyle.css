@@ -1,0 +1,17 @@
+.contactHeader h3 {
+    font-family: 'Space Mono', monospace;
+    color: lightgray;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.contactHeader p {
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+form {
+    font-family: 'Poppins', sans-serif;
+}

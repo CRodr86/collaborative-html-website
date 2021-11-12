@@ -1,0 +1,13 @@
+
+/* Setting height of the navbar logo */
+.navbar-brand img
+{
+    height: 70px;
+}
+
+/* Changing aspects of the navbar text */
+.navbar-link
+{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bolder;
+}
